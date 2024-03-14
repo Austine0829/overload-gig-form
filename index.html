@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Overload: Life Group Form</title>
+  </head>
+  <body>
+    <img src="CSS\Overload_BG.jpg" alt="">
+    <div id="container">
+      <header>
+        <h1 id="title">Overload Life Group Form</h1>
+        <p id="description">Thank you for taking the time to answer the form</p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" placeholder="Age" required min="12" max="23" />
+        </div>
+        <div class="form-group">
+          <label for="group-selector"
+            >Which Life Group you want to be in?</label
+          >
+          <select id="group-selector">
+            <option value="">Select Group</option>
+            <option value="">New-heart</option>
+            <option value="">Anaiah</option>
+            <option value="">Friday's</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="radio-selector"
+            >
+          <p>Would you recommend Overload Gig to a friend?</p>
+          <input
+            type="radio"
+            id="definitely"
+            value="definitely"
+            checked
+            name="radio"
+          />
+          <label for="definitely">Definitely</label><br />
+          <input type="radio" id="not-sure" value="not-sure" name="radio" />
+          <label for="not-sure">Not Sure</label>
+        </div>
+        <div class="form-group">
+          <label for="book"
+            >What book is your favorite in Bible?
+          </label>
+          <select id="book-selector">
+            <option value="">Select Book</option>
+            <option value="" disabled>Old Testament</option>
+            <option value="">Genesis</option>
+            <option value="">Exodus</option>
+            <option value="">Leviticus</option>
+            <option value="">Numbers</option>
+            <option value="">Deutronomy</option>
+            <option value="">Joshua</option>
+            <option value="">Judges</option>
+            <option value="">Ruth</option>
+            <option value="">1 Samuel</option>
+            <option value="">2 Samuel</option>
+            <option value="">1 Kings</option>
+            <option value="">2 Kings</option>
+            <option value="">1 Chronicles</option>
+            <option value="">2 Chronicles</option>
+            <option value="">Ezra</option>
+            <option value="">Nehemiah</option>
+            <option value="">Esther</option>
+            <option value="">Job</option>
+            <option value="">Psalm</option>
+            <option value="">Proverbs</option>
+            <option value="">Ecclesiastes</option>
+            <option value="">Song of Solomon</option>
+            <option value="">Isaiah</option>
+            <option value="">Jeremiah</option>
+            <option value="">Lamentations</option>
+            <option value="">Ezekiel</option>
+            <option value="">Daniel</option>
+            <option value="">Hosea</option>
+            <option value="">Joel</option>
+            <option value="">Amos</option>
+            <option value="">Obadiah</option>
+            <option value="">Jonah</option>
+            <option value="">Micah</option>
+            <option value="">Nahum</option>
+            <option value="">Habakkuk</option>
+            <option value="">Zephaniah</option>
+            <option value="">Haggai</option>
+            <option value="">Zechariah</option>
+            <option value="">Malachi</option>
+            <option value="" disabled>New Testament</option>
+            <option value="">Matthew</option>
+            <option value="">Mark</option>
+            <option value="">Luke</option>
+            <option value="">John</option>
+            <option value="">Acts</option>
+            <option value="">Romans</option>
+            <option value="">1 Corinthians</option>
+            <option value="">2 Corinthians</option>
+            <option value="">Galatians</option>
+            <option value="">Ephesians</option>
+            <option value="">Philippians</option>
+            <option value="">Colossians</option>
+            <option value="">1 Thessalonians</option>
+            <option value="">2 Thessalonians</option>
+            <option value="">1 Timothy</option>
+            <option value="">2 Timothy</option>
+            <option value="">Titus</option>
+            <option value="">Philemon</option>
+            <option value="">Hebrews</option>
+            <option value="">James</option>
+            <option value="">1 Peter</option>
+            <option value="">2 Peter</option>
+            <option value="">1 John</option>
+            <option value="">2 John</option>
+            <option value="">3 John</option>
+            <option value="">Jude</option>
+            <option value="">Revelation</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label id="checkbox"
+            >Which iconic Character you want to be in Bible?
+          </label>
+          <input type="checkbox" name="checkbox" id="" /> Moses <br />
+          <input type="checkbox" name="checkbox" id="" /> Joshua <br />
+          <input type="checkbox" name="checkbox" id="" /> Elijah <br />
+          <input type="checkbox" name="checkbox" id="" /> Paul <br />
+          <input type="checkbox" name="checkbox" id="" /> Daniel <br />
+          <input type="checkbox" name="checkbox" id="" /> David <br />
+          <input type="checkbox" name="checkbox" id="" /> Jacob <br />
+          <input type="checkbox" name="checkbox" id="" /> Isaac <br />
+          <input type="checkbox" name="checkbox" id="" /> Abraham <br />
+          <input type="checkbox" name="checkbox" id="" /> Peter <br />
+          <input type="checkbox" name="checkbox" id="" /> Jonah <br />
+        </div>
+        <div class="form-group">
+          <label for="comments"
+            >Any comments or suggestions to improve Overload Gig?</label
+          >
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="Enter you comment here"
+          ></textarea>
+        </div>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
